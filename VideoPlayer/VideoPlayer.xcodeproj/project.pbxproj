@@ -14,6 +14,7 @@
 		11DC33001E42D2B900F132D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DC32FE1E42D2B900F132D7 /* LaunchScreen.storyboard */; };
 		11DC330B1E42D2B900F132D7 /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC330A1E42D2B900F132D7 /* VideoPlayerUITests.swift */; };
 		11DC33161E42D2F200F132D7 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC33151E42D2F200F132D7 /* PlaylistViewController.swift */; };
+		11DC33181E42D91200F132D7 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DC33171E42D91200F132D7 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		11DC330A1E42D2B900F132D7 /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		11DC330C1E42D2B900F132D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DC33151E42D2F200F132D7 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		11DC33171E42D91200F132D7 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				11DC32FE1E42D2B900F132D7 /* LaunchScreen.storyboard */,
 				11DC33011E42D2B900F132D7 /* Info.plist */,
 				11DC33151E42D2F200F132D7 /* PlaylistViewController.swift */,
+				11DC33171E42D91200F132D7 /* PlayerViewController.swift */,
 			);
 			path = VideoPlayer;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DC32F81E42D2B900F132D7 /* ViewController.swift in Sources */,
+				11DC33181E42D91200F132D7 /* PlayerViewController.swift in Sources */,
 				11DC32F61E42D2B900F132D7 /* AppDelegate.swift in Sources */,
 				11DC33161E42D2F200F132D7 /* PlaylistViewController.swift in Sources */,
 			);
